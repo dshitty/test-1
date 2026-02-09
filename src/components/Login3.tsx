@@ -93,10 +93,3 @@ const Test = () =>{
     )
 }
 export default Test
-{/* <div className="w-screen h-screen flex justify-center items-center gap-5">
-        <div className={` w-[50%] h-full border ${slide?'translate-x-full':'translate-x-0'} transition-transform ease-in duration-300`}>div1</div>
-        <div className="w-[40%] h-[40%] border flex ">
-        <div className={`w-[50%] h-full border ${slide?'-translate-x-full':'translate-x-0'} transition-transform ease-in duration-300 `}>div2</div>
-    </div>
-    <button onClick={()=>setSlide(!slide)}>press me</button>
-</div> */}
