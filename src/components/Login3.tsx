@@ -33,7 +33,7 @@ const Test = () =>{
                 <div className={`flex flex-col justify-center items-center gap-4 w-[35%] h-full   rounded-l-2xl bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 absolute ${slide?'left-[65%] rounded-r-2xl rounded-l-none':'left-0'} ${pop?'scale-x-[2.5]':'scale-x-[1]'} transition-all ease-in duration-700 `}>
                  { slide?  <h1 className={` text-2xl text-center md:text-3xl font-semibold text-white ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500`}>Hello, Friend</h1>:<h1 className={`text-2xl text-center md:text-3xl font-semibold text-white ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500`}>Welcome Back!</h1>}
                   { slide? <div className={`text-center p-3 text-white ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500`}>Enter your personal details and start journey with us</div>:<div className={`text-center p-3 text-white  ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500`}>To keep connected with us please login with your personal info</div>}
-                  { slide?<button onClick={handleSlide} className={`bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 border-white rounded-4xl ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500 `}>SIGN UP</button>:<button onClick={handleSlide} className={`bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 border-white rounded-4xl ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500 `}>SIGN IN</button>}
+                  { slide?<button onClick={handleSlide} className={`bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 border-white text-white rounded-4xl ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500 `}>SIGN UP</button>:<button onClick={handleSlide} className={`bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 border-white text-white rounded-4xl ${fadeOut?'opacity-0':'opacity-100'} transition-all duration-500 `}>SIGN IN</button>}
                 </div>
                 {hide &&  <div className={`w-[65%] h-full  bg-white rounded-r-2xl absolute hidden ${slide?'right-[35%] rounded-l-none':'right-0'} transition-all ease-in duration-900 flex flex-col justify-evenly items-center`}>
                     <div className={` text-black flex flex-col justify-center items-center gap-5  `}>
@@ -66,7 +66,7 @@ const Test = () =>{
                         <input type="email" placeholder="Email" className={`placeholder-gray-400 bg-gray-100  h-12 w-full p-3  transition-all `}/>
                         <input type="text" placeholder="Password"  className={`placeholder-gray-400 bg-gray-100  h-12 w-full p-3  transition-all `}/>
                         <div className={`text-black  transition-all text-center `}>Forgot your password?</div>
-                        <button className={`md:w-[60%] rounded-3xl font-bold bg-gradient-to-br from-[#2FB7A4] to-[#27A896] transition-all hover:from-[#28A194] hover:to-[#1F9186] hover:shadow-lg hover:scale-105 `}>SIGN IN</button>
+                        <button className={`md:w-[60%] rounded-3xl text-white font-bold bg-gradient-to-br from-[#2FB7A4] to-[#27A896] transition-all hover:from-[#28A194] hover:to-[#1F9186] hover:shadow-lg hover:scale-105 `}>SIGN IN</button>
                     </form>
                 </div> :<div className={`w-[65%] h-full  bg-white rounded-r-2xl absolute ${slide?'right-[35%]':'right-0'} transition-all ease-in duration-900 flex flex-col justify-evenly items-center `}>
                     <div className=" text-black flex flex-col justify-center items-center gap-5 ">
@@ -82,7 +82,7 @@ const Test = () =>{
                         <input type="text" placeholder="Name" className={`placeholder-gray-400 bg-gray-100  h-12 w-full p-3  transition-all duration-500`}/>
                         <input type="email" placeholder="Email" className={`placeholder-gray-400 bg-gray-100  h-12 w-full p-3  transition-all duration-500`}/>
                         <input type="text" placeholder="Password"  className={`placeholder-gray-400 bg-gray-100  h-12 w-full p-3  transition-all duration-500`}/>
-                        <button className={` md:w-[60%] rounded-3xl font-bold bg-gradient-to-br from-[#2FB7A4] to-[#27A896]  transition-all duration-500 hover:from-[#28A194] hover:to-[#1F9186] hover:shadow-lg hover:scale-105`}>SIGN UP</button>
+                        <button className={` md:w-[60%] rounded-3xl text-white font-bold bg-gradient-to-br from-[#2FB7A4] to-[#27A896]  transition-all duration-500 hover:from-[#28A194] hover:to-[#1F9186] hover:shadow-lg hover:scale-105`}>SIGN UP</button>
                     </form>
                 </div>} 
                  
