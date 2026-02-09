@@ -12,7 +12,7 @@ const LoginPage2 = () => {
           </div>
         </div>
         <div className="border-none h-full sm:w:full md:w-40/100 flex flex-col justify-center items-center gap-4 rounded-r-2xl bg-white">
-          <h1 className="text-gray-800 md:w-73/100 md:font-medium my-3">Sign In</h1>
+          <h1 className="text-gray-800 md:w-73/100 md:font-medium text-center font-serif my-3 ">Sign In</h1>
           <form
             action=""
             className="w-full border-none  flex flex-col items-center h-1/2 gap-4 "
@@ -37,7 +37,7 @@ const LoginPage2 = () => {
                 />{" "}
                 Remember me{" "}
               </div>
-              <a href="" className="text-purple-500 md:m-0 mx-5">
+              <a href="" className="text-purple-500 md:m-0 mx-1">
                 Forgot password?
               </a>
             </div>
@@ -45,7 +45,7 @@ const LoginPage2 = () => {
               Sign In
             </button>
           </form>
-          <div className="text-gray-800 p-3">
+          <div className="text-gray-800 text-center">
             New here?{" "}
             <a href="" className="text-purple-500">
               Create an Account
